@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dyplom_Feshkin", "Dyplom_Feshkin\Dyplom_Feshkin.csproj", "{B640A81D-B5D0-466B-95CD-C0258725B1A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{D84D1085-4DAF-477A-9D9E-5A76587139D0}"
+	ProjectSection(SolutionItems) = preProject
+		Dyplom_Feshkin\bin\Debug\addMenuStripNewProduct.jpg = Dyplom_Feshkin\bin\Debug\addMenuStripNewProduct.jpg
+		Dyplom_Feshkin\bin\Debug\addMenuStripSaveData.jpg = Dyplom_Feshkin\bin\Debug\addMenuStripSaveData.jpg
+		Dyplom_Feshkin\bin\Debug\addMenuStripSuppliers.jpg = Dyplom_Feshkin\bin\Debug\addMenuStripSuppliers.jpg
+		Dyplom_Feshkin\bin\Debug\addMenuStripWarehouses.jpg = Dyplom_Feshkin\bin\Debug\addMenuStripWarehouses.jpg
+		C:\Users\DELL\Downloads\log_in.ico = C:\Users\DELL\Downloads\log_in.ico
+		Dyplom_Feshkin\Resources\icon\medicine-2_icon-icons.com_66043.ico = Dyplom_Feshkin\Resources\icon\medicine-2_icon-icons.com_66043.ico
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B640A81D-B5D0-466B-95CD-C0258725B1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B640A81D-B5D0-466B-95CD-C0258725B1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B640A81D-B5D0-466B-95CD-C0258725B1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B640A81D-B5D0-466B-95CD-C0258725B1A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
