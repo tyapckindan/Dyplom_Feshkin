@@ -211,5 +211,21 @@ namespace Dyplom_Feshkin
 
             return query;
         }
+        private void dataGridView1_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
+        {
+            var column = dataGridView1.Columns[e.ColumnIndex];
+
+            // Проверяем, является ли колонка числовой (по типу данных)
+            if (column.ValueType == typeof(decimal) ||
+                column.ValueType == typeof(int) ||
+                column.ValueType == typeof(double))
+            {
+                if (!decimal.TryParse(e.FormattedValue.ToString(), out _))
+                {
+                    MessageBox.Show($"В поле \"{column.HeaderText}\" можно вводить только числа!", "Ошибка ввода", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    e.Cancel = true;
+                }
+            }
+        }
     }
 }

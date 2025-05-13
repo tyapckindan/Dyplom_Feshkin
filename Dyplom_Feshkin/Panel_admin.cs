@@ -71,9 +71,9 @@ namespace Dyplom_Feshkin
                 dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
 
                 // Скрываем полe id, т.к. пользователю не нужно с ним работать
-                if (dataGridView1.Columns.Contains($"{tableName}id"))
+                if (dataGridView1.Columns.Contains($"id"))
                 {
-                    dataGridView1.Columns[$"{tableName}id"].Visible = false;
+                    dataGridView1.Columns[$"id"].Visible = false;
                 }
             }
         }
